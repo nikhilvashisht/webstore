@@ -19,10 +19,10 @@ function Carousel (props) {
 
                     <div className="carousel-item">
                         <div className="row">
-                            <div className="col-sm-4 carousel-image">
+                            <div className="col-md-4 carousel-image">
                                 <img src="images/iphone.png" alt="" />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-md-8">
                                 <h2 className = "carousel-heading">Iphone 13</h2>
                                 <h6 className = "carousel-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, quidem! Dignissimos porro vitae quasi est eligendi soluta ratione te Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sit debitis dolore deleniti pariatur ipsam ex praesentium veritatis consectetur odio dignissimos itaque nisi, fugiat, rerum ab aliquid et ut voluptate, ea eum! Debitis, ullam cum?</h6>
 
