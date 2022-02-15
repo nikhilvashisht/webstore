@@ -1,0 +1,141 @@
+::placeholder{
+    color: rgb(200,200,200);
+}
+
+.btn:focus, .btn:hover{   
+    background: linear-gradient(90deg, rgb(176, 13, 252), purple);
+    border: none;
+}
+
+/* Navbar */
+.navbar-content{
+    margin: 0% 1%;
+}
+
+.navbar-heading{
+    font-size: 1.6rem;
+}
+
+.nav-item{
+    padding: 0% 2%;
+}
+
+.dropdown-item:focus{
+    background: linear-gradient(90deg, rgb(176, 13, 252), purple);
+}
+
+.search-bar{
+    border-radius: 40px;
+    padding: 0px 20px;
+    border: none;   
+    background-color: grey;
+    color: white;
+}
+
+/* Carousel */
+#items-carousel{
+    background: linear-gradient(to bottom right, rgb(176, 13, 252), purple);
+}
+.carousel{
+    margin:  2% 1%;
+    color: white;
+}
+
+.carousel .carousel-image{
+   text-align: center;
+}
+
+.carousel-item{
+    padding: 0% 10%;
+}
+
+.carousel #items-carousel{
+    padding: 3% 0%;
+}
+
+
+.carousel h6{
+    padding: 1% 0% 0%;
+}
+
+
+/* Menu */
+.menu-item{
+    width: 100%;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-radius: 0.25rem;
+}
+
+.menu-item:focus{
+    background: linear-gradient(90deg, rgb(176, 13, 252), purple);
+    color: white;
+}
+
+.menu-heading{
+    padding: 10px 6px 3px;
+    color:rgb(139, 134, 134)
+}
+.menu{
+    height: 29rem;
+    padding: 1% 2%;
+    background-color: rgb(219, 218, 218);
+}
+
+/* Items Section */
+.content{
+    margin: 2% 2%;
+}
+
+.card{
+    margin: 0px 0px 10px 0px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-text{
+    padding: 10px;
+}
+
+.card-img-top{
+    padding: 2% 15%;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width :1048px ) {
+    .menu{
+        height: 33rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .menu{
+        height: 28rem;
+        margin: 0px 0px 5% 0px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .carousel-image{
+        padding: 20px 0px 0px;
+    }
+    .carousel-item{
+        padding: 0% 20%;
+    }
+    .carousel-heading{
+        padding: 20px 0px 0px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .carousel-desc{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
